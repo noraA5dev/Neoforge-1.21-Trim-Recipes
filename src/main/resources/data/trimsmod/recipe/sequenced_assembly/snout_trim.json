@@ -1,0 +1,79 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:blackstone"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "minecraft:snout_armor_trim_smithing_template"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:bookshelf"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:bookshelf"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:bookshelf"
+        },
+        {
+          "item": "minecraft:piglin_banner_pattern"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:bookshelf"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:bookshelf"
+        },
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:bookshelf"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:bookshelf"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:bookshelf"
+        },
+        {
+          "id": "minecraft:piglin_banner_pattern"
+        }
+      ]
+    }
+  ],
+
+  "transitional_item": {
+    "id": "minecraft:bookshelf"
+  }
+}

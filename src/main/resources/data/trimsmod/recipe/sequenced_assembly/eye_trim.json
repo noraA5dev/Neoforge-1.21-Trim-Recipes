@@ -1,0 +1,79 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:end_stone"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "minecraft:eye_armor_trim_smithing_template"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:bookshelf"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:bookshelf"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:bookshelf"
+        },
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:bookshelf"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:bookshelf"
+        },
+        {
+          "item": "minecraft:ender_eye"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:bookshelf"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:bookshelf"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:bookshelf"
+        },
+        {
+          "id": "minecraft:ender_eye"
+        }
+      ]
+    }
+  ],
+
+  "transitional_item": {
+    "id": "minecraft:bookshelf"
+  }
+}
